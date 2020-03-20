@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Montserrat:200,400,700|Zilla+Slab:300,400&display=swap');
+
+/* Polices utilisés dans le header */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+/* Polices utilisés dans fable01 */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:900&display=swap');
+/* Polices utilisés dans fable02 */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Vast+Shadow&display=swap');
+/* Polices utilisés dans fable03 */
+@import url('https://fonts.googleapis.com/css?family=BioRhyme:400,700|Space+Mono:400,400i&display=swap');
+/* Polices utilisés dans fable04 */
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Righteous&display=swap');
+/* Polices utilisés dans footer sont les mêmes que dans header */
+
+.header-content {
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.5em;
+}
+
+header h1 {
+  font-size: 4.25em;
+  text-align: center;
+}
+
+header p {
+  font-size: 2.25em;
+}
+
+/* Styles partagés par tous les éléments ayant la même class */
+
+.fable-moral {
+  font-size: 3.052em;
+  margin: 2.75rem 0 1rem;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 h2 {
+  font-size: 3.052em;
+  margin: 2.75rem 0 2.75rem 0;
+  font-family: 'Montserrat', serif;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: right;
+  color: white;
+  padding-right: 30%;
+  padding-top: 10%;
+}
+
+#fable01 p {
+    font-size: 15px;
+    font-family: 'Montserrat', serif;
+     color: white;
+}
+
+#fable01 .fable-moral {
+    font-family: 'Montserrat', serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    color : black;
+}
+
+/* Styles utilisés dans fable02 */
+
+#fable02 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#fable02 h2 {
+  font-size: 3.052em;
+  margin: 2.75rem 0 2.75rem 0;
+  font-family: 'Montserrat', serif;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  color: #ffff
+}
+
+#fable02 .fable-moral {
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* Styles utilisés dans fable03 */
+
+#fable03 {
+  font-family: 'Montserrat', serif;
+  padding-top: 5%;
+}
+
+#fable03 h2 {
+  font-family: 'Goudy Bookletter 1911', serif;
+  margin: 0;
+  font-size: 2em;
+  line-height: 0.75;
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+#fable03 .fable-moral {
+    font-family: 'Montserrat', serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+footer {
+  color: #fff;
+  font-family: 'Bree Serif', serif;
+  background: repeating-linear-gradient(
+    -55deg,
+    #2b2d42,
+    #2b2d42 10px,
+    #222 10px,
+    #222 20px
+  );
+}
+
+footer a {
+  color : #fff;
+}

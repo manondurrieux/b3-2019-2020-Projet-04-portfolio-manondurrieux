@@ -1,0 +1,145 @@
+body {
+  margin : 0;
+}
+
+
+#header {
+  background: url('images/projetportfolio-1.jpg')top center no-repeat;
+}
+
+.header-content {
+  min-height: 45vh;
+  padding: 1em;
+  background: #efefef
+  color: white;
+/* display en flexbox pour centrer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height: 10vh;
+}
+
+/* Styles utilisés dans fable01 */
+
+#identitevisuelle {
+  min-height: 98vh;
+  background: url('images/projetportfolio-2.jpg') top center no-repeat;
+  overflow: hidden;
+  padding-left: 50%;
+}
+
+#identitevisuelle .main-content {
+  display: flex;
+  align-items: right;
+  padding: 10px 50px 20px;
+}
+
+#identitevisuelle .text-content {
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 50px 20px;
+}
+
+#identitevisuelle .fable-moral {
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 50px 20px;
+}
+
+
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#identitevisuelle figure img {
+  width : 100%;
+  border : 4px solid #000;
+}
+
+/* Styles utilisés dans fable02 */
+
+#packaging {
+  min-height: 97vh;
+  background: #efefef  url('images/projetportfolio-3.jpg') top center no-repeat;
+  overflow: hidden;
+  padding-left: 50%;
+}
+
+#packaging .text-content {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 80px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+
+  max-width: 620px;
+}
+
+#packaging .fable-moral {
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+
+/* Styles utilisés dans fable03 */
+
+#illustration {
+  min-height: 86vh;
+  overflow: hidden;
+  background: #efefef url('images/projetportfolio-4.jpg')top center no-repeat ;
+  display: flex;
+  align-items: left;
+}
+
+#illustration .main-content {
+    max-width: 480px;
+    padding-top: 10%;
+}
+
+#illustration p {
+  background: #efefef
+  color: #fff;
+}
+
+
+.emphasised {
+  font-size: 1.5em;
+  padding : 2px;
+  background: black;
+  border-bottom : 1px solid #fff;
+}
+
+footer {
+  min-height: 80vh;
+  overflow: hidden;
+  padding: 12px;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  flex-basis: 320px;
+  flex-grow: 1;
+  margin: 1em;
+  padding: 0;
+}
+
+footer li img {
+  width: 100%;
+}
